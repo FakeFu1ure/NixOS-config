@@ -79,6 +79,7 @@
     unzip
     home-manager
     btop
+    nano
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
