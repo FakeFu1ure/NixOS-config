@@ -1,8 +1,12 @@
 # NixOS Hyprland Configuration
 
-[![Screenshot](screenshot.png)](screenshot.png) <!-- Замените screenshot.png на путь к вашему скриншоту -->
+<img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/aae62ed5-fa7f-40af-870f-a3897b8c6d74" />
 
-A minimalistic, visually-oriented Hyprland configuration for NixOS, featuring dynamic theming and wallpaper management.
+
+A minimalistic, visually-oriented Hyprland configuration for NixOS, featuring dynamic theming and wallpaper managem
+
+<img width="1920" height="1080" alt="2" src="https://github.com/user-attachments/assets/ed907b10-f232-4725-ab56-4d9dcecd3f3b" />
+ent.
 
 ## ✨ Features
 
@@ -32,6 +36,9 @@ A minimalistic, visually-oriented Hyprland configuration for NixOS, featuring dy
 - **Color Generation**: Matugen
 
 ## 🎨 Visual Style
+
+![3](https://github.com/user-attachments/assets/8c910743-68a5-4b54-b969-29c9bc7f948a)
+
 
 - Dynamic color scheme based on current wallpaper
 - Minimalistic and clean aesthetic
