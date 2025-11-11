@@ -3,10 +3,9 @@
 <img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/aae62ed5-fa7f-40af-870f-a3897b8c6d74" />
 
 
-A minimalistic, visually-oriented Hyprland configuration for NixOS, featuring dynamic theming and wallpaper managem
+A minimalistic, visually-oriented Hyprland configuration for NixOS, featuring dynamic theming and wallpaper managem ent.
 
 <img width="1920" height="1080" alt="2" src="https://github.com/user-attachments/assets/ed907b10-f232-4725-ab56-4d9dcecd3f3b" />
-ent.
 
 ## ✨ Features
 
