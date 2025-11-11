@@ -54,10 +54,10 @@ This configuration uses the standard NixOS structure (non-flake). You can import
 
 ### Key Configuration Files
 
-- `./hypr/` - Hyprland configuration and related scripts
-- `./waybar/` - Waybar configuration
-- `./kitty/` - Kitty terminal configuration
-- `./fish/` - Fish shell configuration
+- `~/.config/hypr/` - Hyprland configuration and related scripts
+- `~/.config/waybar/` - Waybar configuration
+- `~/.config/kitty/` - Kitty terminal configuration
+- `~/.config/fish/` - Fish shell configuration
 
 ### Dependencies
 
