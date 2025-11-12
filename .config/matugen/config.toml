@@ -1,0 +1,42 @@
+[config.wallpaper]
+command = "swww"
+arguments = ["img", "--transition-type", "center", "--transition-step", "255", "--transition-fps", "150"]
+set = true
+
+[templates.hyprland]
+input_path = '/home/fake/.config/matugen/templates/hyprland_colors.conf'
+output_path = '~/.config/hypr/colors.conf'
+post_hook = 'hyprctl reload'
+
+
+[templates.kitty]
+input_path = '/home/fake/.config/matugen/templates/kitty-colors.conf'
+output_path = '~/.config/kitty/colors.conf'
+post_hook = 'pkill -SIGUSR1 kitty'
+
+[templates.waybar]
+input_path = '~/.config/matugen/templates/colors.css'
+output_path = '~/.config/waybar/colors.css'
+post_hook = 'pkill -SIGUSR2 waybar'
+
+[templates.fuzzel]
+input_path = '~/.config/fuzzel/fuzzel.ini'
+output_path = '~/.config/fuzzel/colors.ini'
+
+[templates.pywalfox]
+input_path = '~/.config/matugen/templates/pywalfox-colors.json'
+output_path = '~/.cache/wal/colors.json'
+post_hook = 'pywalfox update'
+
+[templates.yazi]
+input_path = '~/.config/matugen/templates/yazi-colors.toml'
+output_path = '~/.config/yazi/theme.toml'
+
+[templates.cava]
+input_path = '~/.config/matugen/templates/cava-colors.ini'
+output_path = '~/.config/cava/themes/matugen'
+post_hook = "pkill -USR1 cava"
+
+[templates.btop]
+input_path = '~/.config/matugen/templates/matugen.theme'
+output_path = '~/.config/btop/themes/matugen.theme'
