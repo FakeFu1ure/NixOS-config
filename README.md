@@ -1,4 +1,4 @@
-<p align="center"># NixOS Hyprland Configuration
+<p align="center"> NixOS Hyprland Configuration
 
 <p align="center"><img width="282" height="256" alt="Nix_Logo" src="https://github.com/user-attachments/assets/1c55e9b2-f8db-4e48-a619-a22e35e2f4ac" />
 
