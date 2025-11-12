@@ -1,6 +1,6 @@
 # NixOS Hyprland Configuration
 
-<img width="1182" height="1026" alt="Nix_Logo" src="https://github.com/user-attachments/assets/1c55e9b2-f8db-4e48-a619-a22e35e2f4ac" />
+<img width="982" height="826" alt="Nix_Logo" src="https://github.com/user-attachments/assets/1c55e9b2-f8db-4e48-a619-a22e35e2f4ac" />
 
 
 <img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/aae62ed5-fa7f-40af-870f-a3897b8c6d74" />
