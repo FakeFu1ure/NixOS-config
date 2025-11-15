@@ -5,15 +5,9 @@
 { config, pkgs, ... }:
 
 {
-  imports =
-    [ # Include the results of the hardware scan.
-      ./hardware-configuration.nix
-      ./hyprland.nix
-      ./zapret_service.nix
-      ./crack.nix
-      ./update.nix
-      ./unstable-packages.nix
-    ];
+  imports = [
+	./imports.nix
+  ];
 
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
@@ -21,7 +15,7 @@
 
   networking.hostName = "nixos"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
-
+  services.displayManager.sddm.enable = true;
   services.openssh.enable = true;
 
   # Configure network proxy if necessary
@@ -70,16 +64,8 @@
   programs.firefox.enable = true;
   # List packages installed in system profile. To search, run:
   # $ nix search wget
-  environment.systemPackages = with pkgs; [
-    neovim
-    wget
-    git
-    telegram-desktop
-    pavucontrol
-    unzip
-    home-manager
-    btop
-  ];
+  nix.settings.experimental-features = [ "nix-command" "flakes" ];
+  #programs.dankMaterialShell.enable =true;
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.

@@ -9,10 +9,10 @@
   programs.hyprlock.enable = true;
   services.hypridle.enable = true;
   
-  services.displayManager.autoLogin = {
-    enable = true;
-    user = "fake";
-  };
+  #services.displayManager.autoLogin = {
+  #  enable = true;
+  #  user = "fake";
+  #};
   
   programs.hyprland.xwayland.enable = true;
   xdg.portal = {
